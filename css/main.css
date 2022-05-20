@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+.logo img {
+    max-width: 100%;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+/*Global Style Start Here*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*::-moz-selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.clr {
+    clear: both;
+}
+
+.master {
+    width: 100%;
+}
+
+/*Global Style Ends Here*/
+
+/*Header Style Start Here*/
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #7f5a05;
+    z-index: 99999;
+    background-color: #fff;
+}
+
+.header .logo {
+    float: left;
+    width: 100%;
+}
+
+.header .logo a {
+    padding: 25px 0px;
+    display: inline-block;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.header-nav .navbar-collapse ul {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-nav .navbar-collapse ul li {
+    list-style-type: none;
+}
+
+.header-nav .navbar-collapse ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #1b0b0b;
+    text-decoration: none;
+    padding: 18px 15px;
+    margin: 20px 0px;
+    border-radius: 15px 0px 15px 0px;
+    display: inline-block;
+}
+
+.header-nav .navbar-nav > .active > a,
+.header-nav .navbar-nav > .active > a:focus {
+    background-color: #000;
+    color: #fff;
+}
+
+/*Header Style Ends Here*/
+
+/*Banner Style Start Here*/
+
+.banner {
+    position: relative;
+    background: url(../images/header_bg.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0px 250px;
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 22px;
+    background: url(../images/div-pattern2.png) repeat-x;
+    display: inline-block;
+}
+
+.banner i {
+    padding: 100px 0px 65px;
+    font-size: 100px;
+    letter-spacing: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.banner h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+    padding-bottom: 15px;
+    letter-spacing: 3px;
+    margin: 0px;
+}
+
+.banner p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.banner a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000;
+    background-color: #e89a2f;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 50px;
+    display: inline-block;
+
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.banner a:hover {
+    background-color: #fff;
+}
+
+/*Banner Style Ends Here*/
+
+/*Offer Style Start Here*/
+
+.offer {
+    padding: 140px 0px 0px;
+    text-align: center;
+}
+
+.offer h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #e89a2f;
+    margin: 0px;
+}
+
+.offer span {
+    padding: 50px 0px;
+    display: inline-block;
+}
+
+.offer .middle-p {
+    padding: 0px 12px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #555555;
+    padding-bottom: 50px;
+}
+
+.offer .offer-box {
+    padding: 0px 5px 120px;
+}
+
+.offer .offer-box i {
+    color: #e89a2f;
+    padding-bottom: 25px;
+}
+
+.offer .offer-box h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.offer .offer-box p {
+    color: #6a5959;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.offer-reservation {
+    background-color: #e89a2f;
+    padding: 68px 0px 64px;
+    position: relative;
+}
+
+.offer-reservation::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 22px;
+    background: url(../images/div-pattern.png) repeat-x;
+    display: inline-block;
+}
+
+.offer-reservation p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.offer-reservation a {
+    padding: 12px 22px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+
+.offer-reservation a:hover {
+    background-color: #fff;    
+    color: #333;
+}
+
+/*Offer Style Ends Here*/
+
+/*Our Shop Style Start Here*/
+
+.shop {
+    padding: 158px 0px 136px;
+}
+
+.shop h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #e89a2f;
+    text-align: center;
+    padding-bottom: 47px;
+    margin: 0px;
+}
+
+.shop span {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 72px;
+}
+
+.shop .cup-about {
+    padding-top: 43px;
+    width: 100%;
+}
+
+.shop h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: bold;
+    padding-bottom: 34px;
+    color: #333;
+    margin: 0px;
+}
+
+.shop p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #333;
+    padding-right: 20px;
+    padding-bottom: 33px;
+    margin: 0px;
+}
+
+/*Our Shop Style Ends Here*/
+
+/*Special Style Start Here*/
+
+.special {
+    padding: 100px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.special h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #e89a2f;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+.special span {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 72px;
+}
+
+
+.special p {
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0px 5px 56px;
+    margin: 0px;
+    color: #555;
+    text-align: center;
+}
+
+.special-box {
+    border: 2px solid #eeeeee;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 241px;
+    width: 100%;
+    max-width: 600px;
+
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.special-box img {
+    width: 100%;
+}
+
+.special-box:hover .small-img {
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+
+    margin-top: -30px;
+}
+
+
+.special-box:hover .special-box-text {
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+
+    top: 0;
+}
+
+.special-box-text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 25px 40px;
+    background-color: rgba(249, 195, 32, 0.8);
+}
+
+.special-box-text h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 0px;
+    color: #ecead5;
+}
+
+.special-box-text h3 .title-color,
+.special-box-text h3 .title-color-two,
+.special-box-text h3 .title-color-three,
+.special-box-text h3 .title-color-four,
+.special-box-text h3 .title-color-five,
+.special-box-text h3 .title-color-six {
+    color: #57352b;
+    padding-bottom: 0px;
+    text-align: left;
+    display: inline-block;
+    width: auto;
+}
+
+.special-box-text h3 .title-color-two {
+    color: #cd3a56;
+}
+
+.special-box-text h3 .title-color-three {
+    color: #672b0f;
+}
+
+.special-box-text h3 .title-color-four {
+    color: #a1120a;
+}
+
+.special-box-text h3 .title-color-five {
+    color: #3b221d;
+}
+
+.special-box-text h3 .title-color-six {
+    color: #ad570a;
+}
+
+.special-box-text a {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.special-box-text a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*Special Style Ends Here*/
+
+/*Chef Style Start Here*/
+
+.chef {
+    background-color: #000;
+    padding: 127px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.chef h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #e89a2f;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+
+.chef span,
+.touch span {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 72px;
+}
+
+.chef p {
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0px 5px 56px;
+    margin: 0px;
+    color: #555;
+    text-align: center;
+}
+
+.chef-box {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.chef-box .chef-box-img {
+    border: 2px solid #e89a2f;
+    width: 100%;
+    max-width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    align-self: center;
+    margin-left: 66px;
+}
+
+.chef-box .chef-box-img img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.chef-box .chef-box-text h3 {
+    padding: 23px 0px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #898989;
+    margin: 0px;
+}
+
+.chef-box .chef-box-text p {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    padding: 0px 5px 25px;
+    margin: 0px;
+    color: #555555;
+}
+
+.chef-box .chef-box-text ul li {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+
+.chef-box .chef-box-text ul li a {
+    width: 100%;
+    max-width: 60px;
+    height: 35px;
+    background-color: #E89A2F;
+    border-radius: 50%;
+    margin: 0px 10px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.chef-box .chef-box-text ul li a i {
+    color: #fff;
+}
+
+.chef-box .chef-box-text ul li a:hover {
+    background-color: #edf703;
+}
+
+/*Chef Style Ends Here*/
+
+/*Touch Style Start Here*/
+
+.touch {
+    padding: 125px 0px;
+    display: inline-block;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.touch h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #E89A2F;
+    padding-bottom: 55px;
+    text-align: center;
+    margin: 0px;
+}
+
+.touch span {
+    padding-bottom: 50px;
+}
+
+.touch .touch-info-box {
+    width: 100%;
+    padding-top: 8px;
+}
+
+.touch .touch-info-box h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.touch .touch-info-box p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    color: #5b5955;
+    margin: 0px;
+    text-align: center;
+    padding: 0px 30px 54px;
+}
+
+.touch .touch-info-box .input-box-group {
+    width: 100%;
+}
+
+.touch .touch-info-box .input-box-group input,
+.touch .touch-info-box .input-box-group textarea {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0px 0px 15px 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.touch .touch-info-box .input-box-group textarea {
+    height: 128px;
+}
+
+.touch .touch-info-box .input-box-group button {
+    margin: 35px 0px;
+    padding: 10px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    background: #E89A2F;
+    border: none;
+    border-radius: 4px;
+
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.touch .touch-info-box .input-box-group button:hover {
+    background-color: #faf118;
+}
+
+.touch .touch-info {
+    width: 100%;
+    text-align: center;
+}
+
+.touch .touch-info .touch-info-text {
+    padding-bottom: 50px;
+}
+
+.touch .touch-info address {
+    margin: 0px;
+}
+
+.touch .touch-info h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    margin: 0px;
+    height: 45px;
+}
+
+.touch .touch-info h4 .address-icon {
+    color: #E89A2F;
+    display: inline-block;
+}
+
+.touch .touch-info ul li {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #5b5955;
+    margin: 0px;
+    text-align: center;
+    padding: 0px 0px 10px;
+}
+
+.touch .touch-info i {
+    display: block;
+    color: #E89A2F;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.touch .touch-info .touch-info-text a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #5b5955;
+    margin: 0px;
+
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.touch .touch-info .touch-info-text a:hover {
+    color: #00a012;
+}
+
+.touch .touch-info .touch-info-text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #5b5955;
+    margin: 0px;
+}
+
+/*Touch Style Ends Here*/
+
+/*Footer Style Start Here*/
+
+.footer-area {
+    height: 91px;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-area .copyright-text {
+    font-size: 16px;
+    line-height: 40px;
+    color: #888;
+    font-weight: 400;
+    padding: 0px;
+}
+
+.footer-area .copyright-text a {
+    font-size: 16px;
+    color: #ddd;
+    border-bottom: 1px dotted #ddd;
+
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.footer-area .copyright-text a:hover {
+    color: #ffbf00;
+    border-bottom: 1px dotted #ffbf00;
+}
+
+.footer-area .social-icon {
+    display: inline-block;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.footer-area .social-icon ul li {
+    display: inline-block;
+    padding: 0px 14px;
+    margin: 0px;
+}
+
+.footer-area .social-icon ul li a {
+    font-size: 22px;
+    color: #fff;
+
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.footer-area .social-icon ul li a:hover {
+    color: #ffbf00;
+}
+
+/*Footer Style Ends Here*/
+
+/* End CSS */

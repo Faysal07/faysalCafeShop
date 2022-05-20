@@ -1,0 +1,60 @@
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+}
+
+/*		Tablet Layout: 768px.	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+}
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+
+/* Bootstrap Mobile Menu
+    .mainmenu .navbar-header .navbar-toggle {
+        border: 1px solid #fff;
+    }
+    .mainmenu .navbar-header .navbar-toggle .icon-bar {
+        background: #fff none repeat scroll 0 0;
+        width: 30px;
+    }
+    .mainmenu .navbar-collapse ul.navbar-nav {
+        text-align: center;
+    }
+
+    .mainmenu .navbar-collapse {
+        background: #CEBEA7;
+        left: 0;
+        position: absolute;
+        z-index: 99;
+        width: 100%;
+    }
+*/
+
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+
+}
